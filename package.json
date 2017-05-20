@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/u4bi/rollup-build/issues"
   },
-  "homepage": "https://github.com/u4bi/rollup-build#readme"
+  "homepage": "https://github.com/u4bi/rollup-build#readme",
+  "devDependencies": {
+    "rollup": "^0.41.6"
+  }
 }
