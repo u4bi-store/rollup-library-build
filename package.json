@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ver" : "./node_modules/.bin/rollup -v",
+    "ver": "./node_modules/.bin/rollup -v",
     "build": "./node_modules/.bin/rollup -c"
   },
   "repository": {
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/u4bi/rollup-build#readme",
   "devDependencies": {
-    "rollup": "^0.41.6"
+    "rollup": "^0.41.6",
+    "rollup-plugin-uglify": "^2.0.0",
+    "uglify-es": "^3.0.10"
   }
 }
