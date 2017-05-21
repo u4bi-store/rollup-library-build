@@ -1,3 +1,5 @@
+import '../scss/Basic.scss'
+
 export class Basic{
     constructor(type){
         this._type = type;
