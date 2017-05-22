@@ -1,8 +1,11 @@
 import '../scss/Basic.scss'
+import { Util } from '../core/Util';
 
 export class Basic{
     constructor(type){
         this._type = type;
+        
+        this.util = Util;
 
         this.init();
 
